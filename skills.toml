@@ -6,8 +6,8 @@ claude-kaiser-skills = "https://github.com/wolski/claude-kaiser-skills.git"
 posit-dev-skills     = "https://github.com/posit-dev/skills.git"
 marimo-team-skills   = "https://github.com/marimo-team/skills.git"
 anthropics-skills    = "https://github.com/anthropics/skills.git"
-fgcz-skills          = "https://github.com/fgcz/skills.git"
 google-deepmind-science-skills = "https://github.com/google-deepmind/science-skills.git"
+fgcz-skills          = "git@github.com:fgcz/skills.git"
 
 [plugins.claude-plugins-official]
 names = [
@@ -35,13 +35,16 @@ paths = [
     "plotly-compact",
     "pixi",
     "general-agentic",
-    "phosphoproteomics-ptm-analysis",
-    "prolfquapp-dea",
-    "prolfqua-adding-models",
     "bfabricpy",
     "bookdown",
     "school-study-materials",
-    "multiagent-review",
+    "advanced-r-engineering",
+    "anndata-proteomics",
+    "design-principles",
+    "polymorphism-over-discrimination",
+    "review",
+    "skill-development",
+    "software-engineering-judgment",
 ]
 agents = [
     "agents/r-development.md",
@@ -72,6 +75,9 @@ paths = [
 
 [skills.fgcz-skills]
 paths = [
+    "proteomics-data-analysis/skills/prolfquapp-dea",
+    "proteomics-data-analysis/skills/phosphoproteomics-ptm-analysis",
+    "metabolomics-data-analysis/skills/metabolomics-curation",
     "fgcz-infrastructure/skills/fgcz-custom-analysis-register",
     "bfabric-lims/skills/bfabric-query",
     "bfabric-lims/skills/bfabric-tools",
@@ -85,7 +91,6 @@ paths = [
 [skills.google-deepmind-science-skills]
 paths = [
     "skills/uv",
-    "skills/scienceskillscommon",
     "skills/uniprot_database",
     "skills/pubmed_database",
     "skills/literature_search_europepmc",
