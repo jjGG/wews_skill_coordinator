@@ -55,10 +55,13 @@ agents = [
 [skills.posit-dev-skills]
 paths = [
     "r-lib/r-package-development",
-    "r-lib/testing-r-packages",
+    "r-lib/r-testthat",
     "r-lib/r-cli-app",
-    "r-lib/cli",
-    "r-lib/lifecycle",
+    "r-lib/r-cli",
+    "r-lib/r-lifecycle",
+    "r-lib/r-tidyverse-style",
+    "r-lib/r-cran-status",
+    "shiny/shiny-r-optimize",
 ]
 
 [skills.marimo-team-skills]
@@ -75,17 +78,31 @@ paths = [
 
 [skills.fgcz-skills]
 paths = [
+    # proteomics
     "proteomics-data-analysis/skills/prolfquapp-dea",
-    "proteomics-data-analysis/skills/phosphoproteomics-ptm-analysis",
+    "proteomics-data-analysis/skills/fix-prolfqua-dea-app",
+    "proteomics-data-analysis/skills/adding-models-to-prolfqua",
+    # metabolomics
     "metabolomics-data-analysis/skills/metabolomics-curation",
-    "fgcz-infrastructure/skills/fgcz-custom-analysis-register",
+    # B-Fabric
+    "bfabric-lims/skills/bfabric-connect",
     "bfabric-lims/skills/bfabric-query",
     "bfabric-lims/skills/bfabric-tools",
+    # FGCZ infrastructure
+    "fgcz-infrastructure/skills/fgcz-custom-analysis-register",
+    "fgcz-infrastructure/skills/fgcz-custom-report-setup",
+    "fgcz-infrastructure/skills/fgcz-quarto-report-template",
+    "fgcz-infrastructure/skills/fgcz-tiki-wiki",
+    "fgcz-infrastructure/skills/fgcz-vllm-client",
     "fgcz-infrastructure/skills/sushi-framework",
     "fgcz-infrastructure/skills/fgcz-sushi-app-dev",
     "fgcz-infrastructure/skills/shinyproxy-deployment",
     "fgcz-infrastructure/skills/fgcz-gitlab",
     "fgcz-infrastructure/skills/fgcz-modules",
+    "fgcz-infrastructure/skills/charging-audit",
+    # meta
+    "meta-skills/skills/fgcz-context",
+    "communication/skills/talking-to-humans",
 ]
 
 [skills.google-deepmind-science-skills]
