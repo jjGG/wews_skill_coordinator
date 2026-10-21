@@ -8,6 +8,7 @@ marimo-team-skills   = "https://github.com/marimo-team/skills.git"
 anthropics-skills    = "https://github.com/anthropics/skills.git"
 google-deepmind-science-skills = "https://github.com/google-deepmind/science-skills.git"
 fgcz-skills          = "git@github.com:fgcz/skills.git"
+ptm-pipeline         = "git@github.com:wolski/ptm-pipeline.git"
 
 [plugins.claude-plugins-official]
 names = [
@@ -103,6 +104,13 @@ paths = [
     # meta
     "meta-skills/skills/fgcz-context",
     "communication/skills/talking-to-humans",
+]
+
+[skills.ptm-pipeline]
+paths = [
+    "skills/phosphoproteomics-ptm-analysis",
+    "skills/run-ptm-pipeline",
+    "skills/fix-ptm-pipeline",
 ]
 
 [skills.google-deepmind-science-skills]
